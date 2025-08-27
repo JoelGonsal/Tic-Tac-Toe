@@ -46,8 +46,8 @@ let resetcount = () =>
      }
      scoreOco=1;
         scoreXco=1;
-         scoreX.innerHTML = `Player X : `;
-    scoreO.innerHTML = `Player O : `;
+         scoreX.innerHTML = `Player X : 0`;
+    scoreO.innerHTML = `Player O : 0`;
     }
 
 resetscore.addEventListener("click",resetcount);
