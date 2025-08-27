@@ -17,20 +17,6 @@ h1,h2{
     font-size:40px;
 }
 
-.btn{
-      width: 100%;      
-    height: 100%; 
-    background-color: #B7FFD8;
-    border: 1px solid black;
-    border-radius: 30px;
-    font-size: 15vmin;
-    color:white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
 .reset, .resetcounter{
     height:8vmin;
     width:18vmin;
@@ -50,21 +36,29 @@ h1,h2{
 }
 
 .container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);  /* 3 columns of equal width */
-    grid-template-rows: repeat(3, 1fr); 
+    display: flex;
     gap:10px;
     justify-content: center;
     align-items: center;
-       width: 110vmin;       /* responsive up to a max */
-    height: 110vmin;
-    max-width: 400px;    /* won’t grow beyond this */
-    max-height: 400px;
+    flex-wrap: wrap;
+    width:60vmin;
+}
+
+.btn{
+    height:18vmin;
+    width:18vmin;
+    background-color: #B7FFD8;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 15vmin;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 .btn:hover{
    
    
-    border: 5px solid #ffa0a0;
+    border: 5px solid #e9a0ff;
     border-radius: 30px;
 
 }
