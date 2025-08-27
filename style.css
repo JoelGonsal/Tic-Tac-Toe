@@ -59,6 +59,9 @@ h1,h2{
     font-size: 8vmin;
     color:white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .btn:hover{
